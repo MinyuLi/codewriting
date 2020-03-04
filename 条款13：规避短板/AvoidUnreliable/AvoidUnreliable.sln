@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainProcess", "MainProcess\MainProcess.vcproj", "{3C34FFAD-70C4-436D-AF24-27C23BCCF866}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkProcess", "WorkProcess\WorkProcess.vcproj", "{DE7727C4-D58D-4DA4-A6CB-A6D7930AE120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C34FFAD-70C4-436D-AF24-27C23BCCF866}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C34FFAD-70C4-436D-AF24-27C23BCCF866}.Debug|Win32.Build.0 = Debug|Win32
+		{3C34FFAD-70C4-436D-AF24-27C23BCCF866}.Release|Win32.ActiveCfg = Release|Win32
+		{3C34FFAD-70C4-436D-AF24-27C23BCCF866}.Release|Win32.Build.0 = Release|Win32
+		{DE7727C4-D58D-4DA4-A6CB-A6D7930AE120}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE7727C4-D58D-4DA4-A6CB-A6D7930AE120}.Debug|Win32.Build.0 = Debug|Win32
+		{DE7727C4-D58D-4DA4-A6CB-A6D7930AE120}.Release|Win32.ActiveCfg = Release|Win32
+		{DE7727C4-D58D-4DA4-A6CB-A6D7930AE120}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

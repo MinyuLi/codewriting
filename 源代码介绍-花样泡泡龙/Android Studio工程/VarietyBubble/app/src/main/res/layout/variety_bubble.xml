@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        app:borderWidth="0dp"
+        app:backgroundTint="#ffffffff"
+        app:rippleColor="#33728dff"
+        app:elevation="8dp"
+        app:pressedTranslationZ="16dp"/>  <!-- srcCompat 属性可参考 https://www.cnblogs.com/jeffen/p/6845489.html -->
+
+    <com.VarietyBubble.GameView
+        android:id="@+id/bubble"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tileSize="20"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/text"
+            android:text="@string/variety_bubble_text"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="#ff000000"
+            android:textSize="40sp"/>
+    </RelativeLayout>
+</FrameLayout>

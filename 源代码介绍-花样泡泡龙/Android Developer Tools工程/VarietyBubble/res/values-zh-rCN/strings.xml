@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">花样泡泡龙</string>
+	<string name="variety_bubble_text"></string>
+	
+	<string name="dialog_ok">确定</string>
+	<string name="dialog_cancel">取消</string>
+	<string name="record_dialog_delete">删除选项</string>
+	<string name="delete_confirm_dialog">确定要删除选中的记录吗？</string>
+	<string name="new_game_confirm_dialog">结束当前游戏？</string>
+	<string name="dialog_help">帮助</string>
+	<string name="dialog_helpinfo">
+	<b>简介</b>\n
+	游戏时一组小球从游戏区上方开始下落，玩家可通过左右移动、旋转、翻转等操作将这些小球停留在指定位置。当下落体中部分小球停止并且其他小球仍能继续下落时，其他小球还可以继续移动、旋转、翻转。当全部小球停止后，若相邻且属性相同的小球达到或超过最低消球数，这些小球被消除。\n\n
+	<b>得分</b>\n
+	消球数量达到最低消球数时，每球得1分；超过最低消球数的部分，每超过1个得分翻倍；连续消球时得分翻倍。\n\n
+	<b>触摸屏操作</b>\n
+	在屏幕上划出顺时针弧线可将下落体顺时针旋转；\n
+	在屏幕上划出逆时针弧线可将下落体逆时针旋转；\n
+	在屏幕上划出竖线可将下落体垂直翻转；\n
+	在屏幕上划出横线可将下落体水平翻转；\n
+	点击下落体左侧或右侧区域，可左右移动下落体；\n
+	点击下落体正下方区域，可加快下降速度。\n\n
+	<b>按键操作</b>\n
+	<b>C</b>键可将下落体顺时针旋转；\n
+	<b>A</b>键可将下落体逆时针旋转；\n
+	<b>V</b>键可将下落体垂直翻转；\n
+	<b>H</b>键可将下落体水平直翻转；\n
+	<b>Left</b>、<b>Right</b>键可左右移动下落体；\n
+	<b>Down</b>键可加快下降速度；\n
+	<b>Up</b>键默认与<b>C</b>键功能相同（并可配置）。\n\n
+	<b>难度设置</b>\n
+	可根据需要设置“色彩模式”，“消球模式”，“最低消球数”，“短边球数”，“长边球数”来调整游戏难度，所有设置均能动态生效。\n\n
+	<b>关于花样泡泡龙</b>\n
+	版本：1.3.1.110125\n
+	Email：lmylmy@gmail.com\n
+	© 2009-2010 李敏榆 \n
+	</string>
+	
+	<string name="state_ready">花样泡泡龙\n按“菜单”键开始</string>
+	<string name="state_pause">暂 停</string>
+	<string name="state_lose">结 束</string>
+	<string name="state_score">\n得 分：</string>
+	<string name="state_difficulty">\n难 度：</string>
+	
+	<string name="record_difficulty"><b>难度：</b></string>
+	<string name="record_name"><b>用户名：</b></string>
+	<string name="record_record"><b>最高分：</b></string>
+	
+	<string name="menu_resume">继续游戏</string>
+	<string name="menu_new_game">新游戏</string>
+	<string name="menu_exit">退出</string>
+	<string name="menu_options">设置</string>
+	<string name="menu_records">英雄榜</string>
+	<string name="menu_help">帮助</string>
+	
+	<string name="opt_title">设置</string>
+	<string name="opt_sound">音效</string>
+	<string name="opt_upkey"><b>UP</b>键功能</string>
+	<string name="opt_sound_summary_on">开启背景音效</string>
+	<string name="opt_sound_summary_off">关闭背景音效</string>
+	<string name="opt_user_name">用户名</string>
+	<string name="opt_user_name_dlg">不超过6个字</string>
+	<string name="opt_user_name_summary">请输入用户名</string>
+	<string name="opt_difficulty">难度</string>
+	<string name="opt_color_shape">色彩模式</string>
+	<string name="opt_destroy_mode">消球模式</string>
+	<string name="opt_destroy_num">最低消球数</string>
+	<string name="opt_block_num_on_short_line">短边球数</string>
+	<string name="opt_block_num_on_long_line">长边球数</string>
+	<string name="opt_no_license">抱歉！体验版不支持此功能。</string>
+	<string name="opt_user_name_too_long">输入不能超过6个汉字或12个字母</string>
+	<string name="opt_range">范围：</string>
+</resources>

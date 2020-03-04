@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogDemo", "LogDemo\LogDemo.vcproj", "{B5D76D51-5426-4054-86E7-AAD228A16CF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogSwitch", "LogSwitch\LogSwitch.vcproj", "{79F67E9D-05E8-40C4-8E0B-F79B1B976ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D76D51-5426-4054-86E7-AAD228A16CF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5D76D51-5426-4054-86E7-AAD228A16CF4}.Debug|Win32.Build.0 = Debug|Win32
+		{B5D76D51-5426-4054-86E7-AAD228A16CF4}.Release|Win32.ActiveCfg = Release|Win32
+		{B5D76D51-5426-4054-86E7-AAD228A16CF4}.Release|Win32.Build.0 = Release|Win32
+		{79F67E9D-05E8-40C4-8E0B-F79B1B976ADA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79F67E9D-05E8-40C4-8E0B-F79B1B976ADA}.Debug|Win32.Build.0 = Debug|Win32
+		{79F67E9D-05E8-40C4-8E0B-F79B1B976ADA}.Release|Win32.ActiveCfg = Release|Win32
+		{79F67E9D-05E8-40C4-8E0B-F79B1B976ADA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

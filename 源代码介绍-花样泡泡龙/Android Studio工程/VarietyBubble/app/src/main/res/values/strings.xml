@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">VarietyBubble</string>
+	<string name="variety_bubble_text"></string>
+	
+	<string name="dialog_ok">OK</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="record_dialog_delete">Delete Records</string>
+	<string name="delete_confirm_dialog">Are you sure to delete selected records?</string>
+	<string name="new_game_confirm_dialog">End current game?</string>
+	<string name="dialog_help">Help</string>
+	<string name="dialog_helpinfo">
+	<b>Introduction</b>\n
+	During the game, a group of bubbles will fall from the top of game area, and you can move, revolve, or turn the bubble group to let them stay in right station. When some of bubbles stop and others could continue falling, the others could keep on move, revolve, or turn. When all bubbles stopped, if the number of border upon bubbles, whose attribute are same, is great or equal to the <b>Minimum Bubble Number for Destroy</b>, these bubbles will be destroyed.\n\n
+	<b>Score</b>\n
+	When the bubble number achieve the <b>Minimum Bubble Number for Destroy</b>, 
+	1 score for each bubble; For exceed part, the score will be double for each bubble;
+	When bubbles continue destroyed, the score will be double.\n\n
+	<b>Orientation Change</b>\n
+	When the orientation of screen changed, the station of bubbles will be adjusted in runtime.
+	Handing bubbles will fall to ground.\n\n
+	<b>Touch Screen Operation</b>\n
+	Draw a clockwise line on screen to clockwise-revolve the falling bubble group;\n
+	Draw a anticlockwise line on screen to anticlockwise-revolve the falling bubble group;\n
+	Draw a vertical line on screen to vertical-turn the falling bubble group;\n
+	Draw a horizontal line on screen to horizontal-turn the falling bubble group;\n
+	Touch the left or right area of the falling bubble group to move it to left or right;\n
+	Touch the down area of the falling bubble group to accelerate down speed.\n\n
+	<b>Key Operation</b>\n
+	<b>C</b> key to clockwise-revolve the falling bubble group;\n
+	<b>A</b> key to anticlockwise-revolve the falling bubble group;\n
+	<b>V</b> key to vertical-turn the falling bubble group;\n
+	<b>H</b> key to horizontal-turn the falling bubble group;\n
+	<b>Left</b>, <b>Right</b> key to move the falling bubble group to left or right;\n
+	<b>Down</b> key to accelerate down speed;\n
+	<b>Up</b> key is same as <b>C</b> key by default, and could be configured.\n\n
+	<b>Difficult Setting</b>\n
+	the <b>Color and Shape Mode</b>, <b>Destroy Mode</b>, <b>Minimum Bubble Number for Destroy</b>, 
+	<b>Bubble Number on Short Line</b>, <b>Bubble Number on Long Line</b> 
+	could be set to adjust the difficult of game. All setting could be took effect in runtime.\n\n
+	<b>About Variety Bubble</b>\n
+	Version: 1.3.1.110125\n
+	Email: codewriting@163.com\n
+	© 2009-2010 Li.Minyu\n
+	</string>
+	
+	<string name="state_ready">Variety Bubble\nPress <b>menu</b> to start</string>
+	<string name="state_pause">Paused</string>
+	<string name="state_lose">Game Over</string>
+	<string name="state_score">\nScore: </string>
+	<string name="state_difficulty">\nDifficulty: </string>
+	
+	<string name="record_difficulty"><b>Difficulty:</b></string>
+	<string name="record_name"><b>Name:</b></string>
+	<string name="record_record"><b>Record:</b></string>
+	
+	<string name="menu_resume">Resume</string>
+	<string name="menu_new_game">New Game</string>
+	<string name="menu_exit">Exit</string>
+	<string name="menu_options">Options</string>
+	<string name="menu_records">Records</string>
+	<string name="menu_help">Help</string>
+	
+	<string name="opt_title">Options</string>
+	<string name="opt_sound">Sound</string>
+	<string name="opt_upkey"><b>UP</b> key function</string>
+	<string name="opt_sound_summary_on">Background sound enable</string>
+	<string name="opt_sound_summary_off">Background sound disable</string>
+	<string name="opt_user_name">User Name</string>
+	<string name="opt_user_name_dlg">Less than 13 letters</string>
+	<string name="opt_user_name_summary">Edit your name</string>
+	<string name="opt_difficulty">Difficulty</string>
+	<string name="opt_color_shape">Color and Shape Mode</string>
+	<string name="opt_destroy_mode">Destroy Mode</string>
+	<string name="opt_destroy_num">Minimum Bubble Number for Destroy</string>
+	<string name="opt_block_num_on_short_line">Bubble Number on Short Line</string>
+	<string name="opt_block_num_on_long_line">Bubble Number on Long Line</string>
+	<string name="opt_no_license">Sorry! Free version does not support this function.</string>
+	<string name="opt_user_name_too_long">Input must less than 13 letters</string>
+	<string name="opt_range">Range:</string>
+
+	<string name="tip_menu">Click the bottom right corner of the screen to display the menu buttons</string>
+</resources>

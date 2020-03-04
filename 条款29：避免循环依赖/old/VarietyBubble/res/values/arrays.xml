@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string-array name="opt_color_shape">
+        <item>Simple</item>
+        <item>Complex</item>
+    </string-array>
+
+    <string-array name="opt_color_shape_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="opt_color_shape_summary">
+        <item>each shape has only one color</item>
+        <item>each shape has multi-color</item>
+    </string-array>
+    
+    <string-array name="opt_destroy_mode">
+        <item>Only color same</item>
+        <item>Only shape same</item>
+        <item>Color and shape same</item>
+    </string-array>
+
+    <string-array name="opt_destroy_mode_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="opt_destroy_mode_summary">
+        <item>destroy bubbles when color same</item>
+        <item>destroy bubbles when shape same</item>
+        <item>destroy bubbles when color and shape same</item>
+    </string-array>
+    
+    <string-array name="opt_up_key_map">
+        <item>Clockwise-revolve</item>
+        <item>Anticlockwise-revolve</item>
+        <item>Vertical-turn</item>
+        <item>Horizontal-turn</item>
+    </string-array>
+    
+    <string-array name="opt_up_key_map_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="opt_up_key_map_summary">
+        <item>Press <b>UP</b> key to clockwise-revolve the falling bubble group.</item>
+        <item>Press <b>UP</b> key to anticlockwise-revolve the falling bubble group.</item>
+        <item>Press <b>UP</b> key to vertical-turn the falling bubble group.</item>
+        <item>Press <b>UP</b> key to horizontal-turn the falling bubble group.</item>
+    </string-array>
+    
+</resources>
